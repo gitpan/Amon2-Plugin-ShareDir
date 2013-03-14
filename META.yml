@@ -25,7 +25,7 @@ no_index:
 provides:
   Amon2::Plugin::ShareDir:
     file: lib/Amon2/Plugin/ShareDir.pm
-    version: v0.0.1
+    version: v0.0.2
 requires:
   Amon2: 3.76
   File::ShareDir: 0
@@ -37,4 +37,4 @@ resources:
   homepage: https://github.com/tokuhirom/Amon2-Plugin-ShareDir/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/tokuhirom/Amon2-Plugin-ShareDir.git
-version: v0.0.1
+version: v0.0.2
