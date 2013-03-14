@@ -1,0 +1,40 @@
+---
+abstract: '(EXPERIMENTAL) share directory'
+author:
+  - 'Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>'
+build_requires:
+  Module::Build::Pluggable::CPANfile: 0.02
+  Module::Build::Pluggable::GithubMeta: 0
+  Test::More: 0.98
+  Test::Requires: 0
+configure_requires:
+  Module::Build: 0.40
+  Module::Build::Pluggable: 0
+  Module::Build::Pluggable::CPANfile: 0.02
+  Module::Build::Pluggable::GithubMeta: 0
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Amon2-Plugin-ShareDir
+no_index:
+  directory:
+    - inc
+provides:
+  Amon2::Plugin::ShareDir:
+    file: lib/Amon2/Plugin/ShareDir.pm
+    version: v0.0.1
+requires:
+  Amon2: 3.76
+  File::ShareDir: 0
+  MRO::Compat: 0
+  if: 0
+  parent: 0
+  perl: 5.008005
+resources:
+  homepage: https://github.com/tokuhirom/Amon2-Plugin-ShareDir/tree
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/tokuhirom/Amon2-Plugin-ShareDir.git
+version: v0.0.1
