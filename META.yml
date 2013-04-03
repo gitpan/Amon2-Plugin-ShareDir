@@ -7,6 +7,7 @@ build_requires:
   Test::Requires: 0
 configure_requires:
   CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
 generated_by: 'Minilla/v0.0.49, CPAN::Meta::Converter version 2.120921'
@@ -15,21 +16,33 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Amon2-Plugin-ShareDir
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
 provides:
   Amon2::Plugin::ShareDir:
     file: lib/Amon2/Plugin/ShareDir.pm
-    version: v0.0.3
+    version: v0.0.5
 requires:
   Amon2: 3.76
+  Amon2::Util: 0
+  Amon2::Web: 0
   File::ShareDir: 0
+  List::Util: 0
   MRO::Compat: 0
   if: 0
   parent: 0
   perl: 5.008005
+  version: 0
 resources:
   bugtracker: https://github.com/tokuhirom/Amon2-Plugin-ShareDir/issues
   homepage: https://github.com/tokuhirom/Amon2-Plugin-ShareDir
   repository: git://github.com/tokuhirom/Amon2-Plugin-ShareDir.git
-version: 0.0.3
+version: v0.0.5
 x_contributors:
   - 'tokuhirom <tokuhirom@gmail.com>'
